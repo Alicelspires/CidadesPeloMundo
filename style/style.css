@@ -1,0 +1,51 @@
+main{
+    color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.432);
+}
+main h1{
+    font-size:3rem;
+    margin:10px;
+}
+main p{
+    font-size:1.3rem;
+    margin:40px;
+}
+main span{
+    font-size: 3rem;
+}
+
+.editar-perfil{
+    display:flex;
+    flex-direction: column;
+    width:75%;
+    margin:40px;
+    background-color: rgba(34, 34, 34, 0.719);
+    box-shadow: 0px 0px 30px -5px black;
+    border-radius: 10px;
+    padding:20px 40px;
+    gap:8px;
+    backdrop-filter: blur(5px);
+}
+.editar-perfil input{
+    height:30px;
+    width:250px;
+    border-radius: 5px;
+    padding:10px;
+    box-sizing: border-box;
+}
+.editar-perfil button{
+    color:white;
+    background-color: rgb(49, 49, 49);
+    height:34px;
+    cursor: pointer;
+    width:80px;
+    border-radius: 5px;
+}
+.editar-perfil .delete{
+    background-color: rgb(167, 9, 9);
+}

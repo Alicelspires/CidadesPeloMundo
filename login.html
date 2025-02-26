@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body onload="banco()">
+    <header>
+        <nav><a href="./index.html">ExploraMundi</a></nav>
+        <nav><a href="./sobre.html">Sobre a empresa</a></nav>
+        <div>
+            <nav><a href="./login.html">Login</a></nav>
+            <nav><a href="./cadastro.html">Cadastro</a></nav>
+        </div>
+    </header>
+    <main>
+        <h1>Login</h1>
+        <form class="login">
+            <div class="input">
+                <label for="emails">E-mail: </label>
+                <input id="emails" type="email" placeholder="exemplo@gmail.com">
+            </div>
+            <div class="input">
+                <label for="pass">Senha: </label>
+                <input id="pass" type="password" placeholder="• • • • •">
+            </div>
+            <button id="logar" onclick="logar(event)">Login</button>
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>Desenvolvido por Alice Silva</p>
+    </footer>
+    <script src="./js/login.js"></script>
+</body>
+</html>

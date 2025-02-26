@@ -1,0 +1,38 @@
+main{
+    color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding:0px 80px;
+    gap:80px;
+}
+main h2{
+    font-size:1.8rem;
+    text-align: center;
+}
+main h3{
+    font-size:1.3rem;
+    margin:20px 0px;
+    text-align: center;
+}
+main p{
+    font-size:1.1rem;
+
+    margin-top:10px;
+}
+main ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+main img{
+    width:500px;
+    object-fit: cover;
+    height:auto;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border:3px solid white;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Cidades do mundo</title>
+</head>
+<body>
+    <header>
+        <nav><a href="./index.html">ExploraMundi</a></nav>
+        <nav><a href="./sobre.html">Sobre a empresa</a></nav>
+        <div>
+            <nav><a href="./login.html">Login</a></nav>
+            <nav><a href="./cadastro.html">Cadastro</a></nav>
+        </div>
+    </header>
+    <main>
+        <h1>CIDADES PELO MUNDO</h1>
+        <p>Venha conhecer os melhores lugares espalhados pelo globo com os melhores preços, acesse nossa agência!</p>
+        <span>&#10022;</span>
+        <div class="editar-perfil">
+            <h2>Editar informações</h2>
+
+            <label for="buscar">Buscar</label>
+            <div class="buscar">
+                <input id="buscar" type="text" placeholder="Nome de usuário">
+                <button id="busca" onclick="buscar()">Buscar</button> => 
+                <input id="ids" type="text" placeholder="id">
+                <input id="names" type="text" placeholder="Nome completo">
+                <input id="emails" type="text" placeholder="exemplo@gmail.com">
+            </div>
+            <label for="atualizar">Atualizar</label>
+            <div class="atualizar">
+                <input type="text" id="idAtualizar" placeholder="id"> => 
+                <input id="atualizar" type="text" placeholder="exemplo@gmail.com">
+                <button id="atualiza" onclick="atualizar()">Atualizar</button>
+            </div>
+            <label for="deletar">Deletar</label>
+            <div class="deletar">
+                <input id="loginValue" type="text" placeholder="Nome de usuário">
+                <button id="deleta" onclick="deletar()" class="delete">Deletar</button>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <p>Desenvolvido por Alice Silva</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
