@@ -4,7 +4,6 @@
 
 - Desenvolvido por: **Alice Silva** 
 - Data: 25/02/2024
-- Aula: Desenvolvimento Web II
   
 #
 ### Link: https://alicelspires.github.io/CidadesPeloMundo/
